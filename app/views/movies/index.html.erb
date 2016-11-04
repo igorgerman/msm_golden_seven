@@ -58,9 +58,9 @@
 
 
     <td>
-      <a href="http://localhost:3000/<%= movie.id %>">View</a>
-      <a href="#">Update</a>
-      <a href="#">Delete</a>
+      <a href="http://localhost:3000/movies/<%= movie.id %>">View</a>
+      <a href="http://localhost:3000/movies/<%= movie.id %>/edit_form">Update</a>
+      <a href="http://localhost:3000/movies/<%= movie.id %>/delete">Delete</a>
     </td>
   </tr>
   <% end %>
